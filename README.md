@@ -32,10 +32,13 @@ Here is you can find useful SQL queries for observing PostgreSQL.
 
 ### Background services
 - [bgwriter/checkpointer summary](stats/bgwriter_summary.sql) - show summary statistics about background writer and checkpointer (pg_stat_bgwriter).
+- [tables need vacuum](stats/show_autovacuum_needed.sql) - show tables which have to be vacuumed or analyzed (pg_class, pg_stat_user_tables).
 
 ### Sizes
 - [top tables by size](stats/top_tables_by_size.sql) - show top 20 tables by size (pg_class, pg_*_size, etc...).
+- [pg_catalog size](stats/pg_catalog_size.sql) - show top 10 tables by size from pg_catalog (pg_stat_sys_tables, pg_total_relation_size).
 
 ### Databases
 - [databases overview](stats/databases_common.sql) - show databases overview: rollback ratio, cache hit ratio, etc... (pg_stat_databases).
+- [cache hit ratio](stats/cache_hit_ratio.sql) - show overall cache hit ratio (pg_stat_database).
 
