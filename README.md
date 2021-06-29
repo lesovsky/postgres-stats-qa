@@ -19,10 +19,10 @@ This should be used with [pgstats.dev](https://pgstats.dev)
     
 
 2. [Query Planning](https://pgstats.dev/Query%20Planning)
-    - [ ] what is planner?
-    - [ ] how long queries are planned?
-    - [ ] what is the ratio of planning time to executing time?
-    - [ ] how to get plan of the query?
+    - [x] what is planner?
+    - [x] how long queries are planned?
+    - [x] what is the ratio of planning time to executing time?
+    - [x] how to get plan of the query?
 
 
 3. [Query Execution](https://pgstats.dev/Query%20Execution)
